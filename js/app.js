@@ -22,7 +22,7 @@ const sectionsList = document.querySelectorAll('section');
 // console.log(sectionsList);
 const frag = document.createDocumentFragment();
 const navBar = document.getElementById('navbar__list');
-const listItems = document.getElementsByTagName('li');
+// const listItems = document.getElementsByTagName('li');
 
 
 window.addEventListener('DOMContentLoaded', (event) => {
