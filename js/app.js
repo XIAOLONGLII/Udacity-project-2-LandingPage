@@ -119,7 +119,12 @@ navList.addEventListener('click', function(event) {
 buildNav(sectionsList);
 
 
-
+// scroll to top button
+const ele = document.getElementById("main");
+console.log(ele);
+function scrollToTop() {
+    ele.scrollIntoView({behavior: "smooth"});
+}
 
 
 
